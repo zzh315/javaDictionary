@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.zzh.client.ClientGUI">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="15" y="18" width="974" height="798"/>
+    </constraints>
+    <properties>
+      <background color="-3221510"/>
+    </properties>
+    <border type="line" title=""/>
+    <children>
+      <component id="26794" class="javax.swing.JComboBox" binding="choseAction">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="25"/>
+            <preferred-size width="300" height="50"/>
+            <maximum-size width="500" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <model>
+            <item value="CREATE"/>
+            <item value="READ"/>
+            <item value="UPDATE"/>
+            <item value="DELETE"/>
+            <item value="APPEND"/>
+          </model>
+        </properties>
+      </component>
+      <component id="9fc49" class="javax.swing.JButton" binding="submitButton">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="100"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="16" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="10"/>
+          <inheritsPopupMenu value="true"/>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="c842b" class="javax.swing.JTextField" binding="meaningText">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="100"/>
+            <preferred-size width="300" height="100"/>
+            <maximum-size width="800" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bff83" class="javax.swing.JLabel" binding="dicDisplayLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="100"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="18" style="1"/>
+          <text value="Response"/>
+        </properties>
+      </component>
+      <component id="6d75e" class="javax.swing.JLabel" binding="specialMeaningLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="100"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="12" style="1"/>
+          <labelFor value="bbe59"/>
+          <text value="New Meaning"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="28a1e" class="javax.swing.JLabel" binding="meaningLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="100"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="12" style="1"/>
+          <labelFor value="c842b"/>
+          <text value="Meaning"/>
+        </properties>
+      </component>
+      <component id="b1d6c" class="javax.swing.JLabel" binding="wordKeyLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="100"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentY value="0.5"/>
+          <font name="Segoe Print" size="20" style="1"/>
+          <inheritsPopupMenu value="true"/>
+          <labelFor value="a060e"/>
+          <text value="Word"/>
+        </properties>
+      </component>
+      <component id="a9e9a" class="javax.swing.JLabel" binding="choseActionLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="50"/>
+            <maximum-size width="100" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="20" style="1"/>
+          <labelFor value="26794"/>
+          <text value="Action"/>
+        </properties>
+      </component>
+      <component id="a060e" class="javax.swing.JTextField" binding="wordKeyText">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="100"/>
+            <preferred-size width="300" height="100"/>
+            <maximum-size width="800" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <text value=""/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="58af0" class="javax.swing.JTextArea" binding="dicDisplayText">
+        <constraints>
+          <grid row="4" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="7" anchor="8" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="200"/>
+            <preferred-size width="300" height="400"/>
+            <maximum-size width="800" height="400"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <lineWrap value="true"/>
+          <rows value="20"/>
+          <wrapStyleWord value="false"/>
+        </properties>
+      </component>
+      <component id="bbe59" class="javax.swing.JTextField" binding="specialMeaningText">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="100"/>
+            <preferred-size width="300" height="100"/>
+            <maximum-size width="800" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

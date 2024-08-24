@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="dicServer:client">
+    <output-path>$PROJECT_DIR$/out/artifacts/dicServer_client</output-path>
+    <root id="archive" name="dicServer.jar">
+      <element id="module-output" name="dicServer" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
